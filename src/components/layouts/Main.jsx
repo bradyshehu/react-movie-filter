@@ -40,8 +40,8 @@ export default function Main() {
 
         <div className="row g-3">
           {filteredMovies.map((movie, index) => (
-            <div className="col-4">
-              <div className="card" key={index}>
+            <div className="col-4" key={index}>
+              <div className="card">
                 <div className="card-header">Titolo: {movie.title}</div>
                 <div className="card-body">Genere: {movie.genre}</div>
               </div>
